@@ -15,7 +15,6 @@ const blogRoutes = require("./routes/blogRoutes");
 // mogodb connection
 connectdb();
 
-const cors = require("cors");
 const mongoose = require("mongoose");
 
 const colors = require("colors");
