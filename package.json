@@ -8,7 +8,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "client": "npm start --prefix ./client",
-    "devv":"concurrently \"npm run index.js\" \"npm start client\""
+    "devv": "concurrently \"npm run index.js\" \"npm start client\""
   },
   "author": "",
   "license": "ISC",
