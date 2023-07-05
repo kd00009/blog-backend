@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 const port = process.env.PORT || 5000;
 const cors = require("cors");
 const connectdb = require("./config/db.js");
-app.use(cors());
+
 dotenv.config();
 
 // router import
